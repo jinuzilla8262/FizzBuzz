@@ -40,6 +40,9 @@ public class AppTest
     public void testFizzBuzz() {
         assertEquals("1", fizzBuzz(1));
         assertEquals("2", fizzBuzz(2));
-
+        //Test Cases for Fizz as expected output
+        assertEquals("Fizz", fizzBuzz(3));
+        assertEquals("Fizz", fizzBuzz(6));
+        assertEquals("Fizz", fizzBuzz(9));
     }
 }
