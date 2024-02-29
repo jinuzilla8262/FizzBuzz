@@ -39,6 +39,7 @@ public class AppTest
     }
     public void testFizzBuzz() {
         assertEquals("1", fizzBuzz(1));
+        assertEquals("2", fizzBuzz(2));
 
     }
 }
