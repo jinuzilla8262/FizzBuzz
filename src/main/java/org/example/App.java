@@ -17,15 +17,15 @@ public class App
     public static String fizzBuzz(int input) {
         String output = "";
         if (input % 3 == 0) {
-            output = output.concat("Fizz");
+            output += "Fizz";
         }
         if (input % 5 == 0) {
-            output = output.concat("Buzz");
+            output += "Buzz";
         }
-        if (!output.equals("")) {
-            return output;
+        if (input % 3 != 0 && input % 5 != 0) {
+            output = String.valueOf(input);
         }
-        return String.valueOf(input);
+        return output;
     }
 
 
