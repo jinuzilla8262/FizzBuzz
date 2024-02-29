@@ -15,17 +15,13 @@ public class App
 //        }
     }
     public static String fizzBuzz(int input) {
-        if (isDivisibleBy(input, 3)) {
+        if (input % 3 == 0) {
             return "Fizz";
         }
-        if (isDivisibleBy(input, 5)) {
+        if (input % 5 == 0) {
             return "Buzz";
         }
         return String.valueOf(input);
-
-    }
-    private static boolean isDivisibleBy(int dividend, int divisor) {
-        return dividend % divisor == 0;
     }
 
 
