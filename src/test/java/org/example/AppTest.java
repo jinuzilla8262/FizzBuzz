@@ -47,5 +47,7 @@ public class AppTest
         //Test Cases for Bizz as expected output
         assertEquals("Buzz", fizzBuzz(5));
         assertEquals("Buzz", fizzBuzz(10));
+        //Test Cases for FizzBuzz as expected output
+        assertEquals("FizzBuzz", fizzBuzz(15));
     }
 }
