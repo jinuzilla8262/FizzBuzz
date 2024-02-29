@@ -15,14 +15,15 @@ public class App
 //        }
     }
     public static String fizzBuzz(int input) {
-        if (input % 3 == 0 && input % 5 == 0) {
-            return "FizzBuzz";
-        }
+        String output = "";
         if (input % 3 == 0) {
-            return "Fizz";
+            output = output.concat("Fizz");
         }
         if (input % 5 == 0) {
-            return "Buzz";
+            output = output.concat("Buzz");
+        }
+        if (!output.equals("")) {
+            return output;
         }
         return String.valueOf(input);
     }
