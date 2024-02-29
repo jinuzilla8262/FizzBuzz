@@ -49,7 +49,8 @@ public class AppTest
         assertEquals("Buzz", fizzBuzz(10));
         //Test Cases for FizzBuzz as expected output
         assertEquals("FizzBuzz", fizzBuzz(15));
-       //Test Case for A number is not divisible by ‘3’ or ‘5’ return the number itself (as a String)
+
+        //Test Case for A number is not divisible by ‘3’ or ‘5’ return the number itself (as a String)
         assertEquals("16", fizzBuzz(16));
 
     }
